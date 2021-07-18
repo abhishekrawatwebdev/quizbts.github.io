@@ -1,0 +1,124 @@
+body{
+    height: 100vh;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     /* background-image: url('backgro.png'); */
+     background-color: rgb(15, 15, 15);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 0vh;
+    background-position-y: -200vh;
+} 
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 20vw;
+    margin-top: 2vh;
+    
+}
+.name{
+    color: blanchedalmond;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 25px;
+    justify-content: center;
+    margin-left: 2vw;
+}
+.navbar{
+    display: flex;
+    /* background-color: rgb(24, 24, 24); */
+    height: 80px;
+}
+.lets {
+    color: rgb(151, 101, 233);
+    font-size: 20px;
+    text-align: center;
+}
+section{
+    /* background-color: rgb(130, 60, 196); */
+   
+    height: 86.8vh;
+}
+.modal{
+    background-color: rgba(255, 255, 255, 0.329);
+    border-radius: 25px;
+    height: 400px;
+    width: 300px;
+    backdrop-filter: blur(1px);
+    transform: translateX(9vw);
+}
+.question{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-top: 2vh;
+    padding-left: 2vh;
+}
+.opt ul{
+   transform: translate(2vw,5vh);
+   margin-top: 0vh;
+}
+.opt ul li{
+    font-size: 10.7px;
+    list-style-type: none;
+    font-size: 18px;
+}
+.optlist{
+    color: rgb(255, 255, 255);
+    margin: 2vh;
+    background-color: rgba(151, 96, 240, 0.445);
+    /* width: 150px; */
+    padding-left: 2vh;
+    border: 2px solid purple;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.subtn{
+    transform: translate(30vw,7vh);
+    border: 2px solid purple;
+    outline: none;
+    border-radius: 20px;
+    height: 5vh;
+    width: 80px;
+    cursor: pointer;
+    background-color: rgb(151, 101, 233);
+    color: rgb(255, 255, 255);
+    transition: 0.3s all ease-in-out;
+}
+.subtn:hover{
+    background-color: rgb(123, 57, 230);
+}
+#scorer{
+    display: none;
+}
+#scorer h2{
+    color: rgb(255, 255, 255);
+    font-size: 7vh;
+    padding-top: 10vh;
+    margin-left: 10vw;
+}
+#result h2{
+    color: rgb(255, 255, 255);
+    transform: translate(10vw,15vh);
+}
+#reload{
+    transform: translate(18vw,0vh);
+    outline: none;
+    background-color: rgb(181, 88, 235);
+    border: 2px solid rgb(134, 0, 243);
+    border-radius: 20px;
+    font-size: 25px;
+    height: 10vh; 
+    width: 160px; 
+    cursor: pointer;
+
+}
+#scorer h1{
+    font-size: 15vh;
+    padding-left: 20vw;
+}
